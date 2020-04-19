@@ -1,0 +1,79 @@
+
+body {
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(145,13,13,1) 100%);
+}
+
+.block{
+	border-radius: 6px;
+	padding: 20px;
+	margin-top: 10px;
+	text-align: left;
+
+	transition: transform .2s;
+}
+
+.block:hover{
+
+
+  	transform: scale(1.03);
+}
+
+#classroom, #infiniteCampus, #schoolloop, #flex{
+	float: left;
+	width: 48%;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+#zoom, #remind, #turnitin {
+	float: right;
+	width: 48%;
+	
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+#zoom{
+	background: rgb(3, 161, 252);
+	border-style: solid;
+	border-color: white;
+}
+
+#classroom{
+	background: white;
+	border-style: solid;
+	border-color: #F5BA14;
+	border-width: 5px;
+}
+
+#infiniteCampus{
+	background: rgb(141, 222, 60);
+}
+
+#remind{
+	background:rgb(70, 126, 224);
+}
+
+#schoolloop{
+	color: white;
+	background: black;
+	border-style: solid;
+	border-color: rgb(110, 219, 255);
+}
+
+#turnitin{
+	background: rgb(2, 112, 181);
+}
+
+#flex{
+	background-color: white;
+}
+h3{
+	text-align: center;
+}
+a{
+	text-align: center;
+	color: black;
+
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- my own css -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+    <title>Student Web</title>
+  </head>
+  <body>
+    <div id = "click">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(145,13,13,1) 100%);">
+        <a class="navbar-brand" href="#">Student Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+          </ul>
+          <span class="navbar-text" style="color: rgb(145,13,13);">
+            Hackswiftly Hackathon Project
+          </span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-top: 5px; margin-bottom: 5px;">
+      <strong>Website refused to connect!</strong> Some websites may not work because they are sending a "X-Frame-Options: SAMEORIGIN" which prevents us from diplaying the website through iframe.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    
+    <a href="https://classroom.google.com/" target="_blank">
+      <div class="block" id="classroom">      
+      <h3>
+        <img src="images/googleClassroomLogo.png" class="rounded" style=" width: 50px; margin-right:10px;">
+      </h3>
+      <iframe src="https://classroom.google.com/" width="560" height="300" frameborder="0"></iframe>
+      </div>  
+    </a>
+    
+    <a href="https://zoom.us/meeting?_x_zm_rtaid=smJc3URGQ7CyH1qh80NKNw.1587178836154.ca3d1fc3f447b59aa49a2d55322a025a&_x_zm_rhtaid=644" target="_blank">
+      <div class="block" id="zoom">
+        <h3><img src="images/zoom.png" style="height: 50px;"></h3>
+          <iframe src="https://zoom.us/meeting?_x_zm_rtaid=smJc3URGQ7CyH1qh80NKNw.1587178836154.ca3d1fc3f447b59aa49a2d55322a025a&_x_zm_rhtaid=644" width="570" height="560" frameborder="0" >
+          </iframe>
+      </div>
+    </a>
+
+    <a href="https://fremonths.schoolloop.com/" target="_blank">
+      <div class="block" id="schoolloop">
+        <h3><img src="images/schoolloop.png" style="height: 50px;"></h3>
+        <iframe src="https://fremonths.schoolloop.com/"width="560" height="400" frameborder="0"></iframe>
+      </div>
+    </a>
+    
+    <a href="https://www.remind.com/classes/shenb3/messages/6dd63d58-d018-420b-b990-e0ceef9eefdc" target="_blank">
+      <div class="block" id="remind">
+        <h3><img src="images/remind.png" style="height: 50px;"></h3>
+        <iframe src="https://www.remind.com/classes/shenb3/messages/6dd63d58-d018-420b-b990-e0ceef9eefdc" width="560" height="300" frameborder="0"></iframe>
+      </div>
+    </a>
+
+    <a href="https://campus.fuhsd.org/campus/portal/fremont.jsp" target="_blank">
+      <div class="block" id="infiniteCampus">
+        <h3><img src="images/infinitecampus.png" style="height: 50px;"></h3>
+        <iframe src="https://campus.fuhsd.org/campus/portal/fremont.jsp" width="560" height="300" frameborder="0"></iframe>
+      </div>
+    </a>
+    
+    <a href="https://www.turnitin.com/s_home.asp?login=1&svr=52&lang=en_us&r=74.9597565553028" target="_blank">
+      <div class="block" id="turnitin">
+        <h3><img src="images/turnitin.png" style="height: 50px;"></h3>
+        <iframe src="https://www.turnitin.com/s_home.asp?login=1&svr=52&lang=en_us&r=74.9597565553028" frameborder="0" width="570" height="400">
+      </div>
+    </a>
+
+    <a href="http://doflex.fuhsd.org/fhs/students/" target="_blank">
+      <div class="block" id="flex">
+        <h3>Flex</h3>
+        <iframe src="http://doflex.fuhsd.org/fhs/students/" width="560" frameborder="0"></iframe>
+      </div>
+    </a>
+
+    
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
